@@ -5,15 +5,18 @@ while i == 1:
     from random import randint
     itens = ('PEDRA', 'PAPEL', 'TESOURA')
     computador = randint(0, 2) #sorteio do computador
+
     print('''Suas opções:
     [ 0 ] PEDRA
     [ 1 ] PAPEL
     [ 2 ] TESOURA''')
+
     jogador = int(input('Qual a sua jogada? '))
     if jogador > 2:
         print('OPÇÃO INVALIDA')
         from sys import exit
         exit() #finaliza o programa
+
     from time import sleep
     print('JO')
     sleep(0.5)
@@ -46,5 +49,3 @@ while i == 1:
             print('COMPUTADOR VENCE')
         if jogador == 2:
             print('EMPATE')
-    i = int(input('Quer jogar novamente?  0 = NÃO   1 = SIM  -  '))
-print('Valeu pela partida!')
