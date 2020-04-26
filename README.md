@@ -3,6 +3,7 @@
 [![Python](https://www.python.org/static/img/python-logo.png)](https://www.python.org/)
 
 [**Python.org**](https://www.python.org/)
+
 [**Python.org.br**](https://python.org.br/)
 
 
